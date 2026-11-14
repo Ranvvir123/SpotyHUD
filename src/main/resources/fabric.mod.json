@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "spotyhud",
+  "version": "${version}",
+  "name": "SpotyHUD",
+  "description": "A modern now-playing HUD with in-game media controls. Reads Spotify (or any media player) straight from the OS - no Web API, no login.",
+  "authors": ["SpotyHUD"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.spotyhud.client.SpotyHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
